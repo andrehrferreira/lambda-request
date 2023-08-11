@@ -1,0 +1,18 @@
+{
+    "name": "lambda-request",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js",
+        "zip": "yarn && rm lambda-request.zip || true && zip -r lambda-request.zip ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andrehrferreira/lambda-request"
+    },
+    "author": "Andre Ferreira",
+    "dependencies": {
+        "axios": "^0.19.2"
+    }
+}
